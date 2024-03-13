@@ -37,7 +37,7 @@
                 <Slider fx:id="greenSlider" max="255.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                 <Slider fx:id="blueSlider" max="255.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                 <Slider fx:id="alphaSlider" blockIncrement="0.1" max="1.0" value="1.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                <TextField fx:id="redTextField" GridPane.columnIndex="2" />
+                <TextField fx:id="redTextField" onKeyTyped="#changeRedText" GridPane.columnIndex="2" />
                 <TextField fx:id="greenTextField" GridPane.columnIndex="2" GridPane.rowIndex="1" />
                 <TextField fx:id="blueTextField" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                 <TextField fx:id="alphaTextField" GridPane.columnIndex="2" GridPane.rowIndex="3" />
